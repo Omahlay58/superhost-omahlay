@@ -1,0 +1,27 @@
+{
+  "name": "omah-lay-portfolio",
+  "version": "1.0.0",
+  "description": "Personal brand website for Omah Lay",
+  "main": "index.html",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "compress": "node compress-and-deploy.js",
+    "upload": "node upload-to-cloudinary.js",
+    "build": "echo 'Static site - no build needed'"
+  },
+  "keywords": [
+    "portfolio",
+    "event-planner",
+    "host",
+    "influencer",
+    "marketer"
+  ],
+  "author": "Omah Lay",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^2.10.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "sharp": "^0.34.5"
+  }
+}
